@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FinTrack - Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="logo.png" alt="FinTrack Logo" class="logo">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Slider -->
+  <section class="hero">
+    <div class="carousel">
+      <div class="slides">
+        <div class="slide">
+          <img src="4.jpeg" alt="Digital Bookkeeping" width="50%">
+          <div class="caption">Streamline your business with digital bookkeeping.</div>
+        </div>
+        <div class="slide">
+          <img src="3.jpeg" alt="UPI Payments" width="100%">
+          <div class="caption">Fast and secure UPI-based payments.</div>
+        </div>
+        <div class="slide">
+          <img src="assets/security.jpeg" alt="Advanced Security">
+          <div class="caption">Stay secure with biometric authentication and NFC.</div>
+        </div>
+      </div>
+      <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About FinTrack</h2>
+    <p>FinTrack is a state-of-the-art application designed to solve the financial management challenges of small and medium-sized businesses. From tracking expenses to secure peer-to-peer payments, we have it all.</p>
+    <button onclick="window.location.href='features.html'">Learn More</button>
+  </section>
+
+  <!-- Features Preview Section -->
+  <section class="features-preview">
+    <h2>Our Key Features</h2>
+    <div class="feature-cards">
+      <div class="feature-card">
+        <img src="bookeeping.jpeg" alt="Bookkeeping">
+        <h3>Digital Bookkeeping</h3>
+        <p>Track your expenses and manage debts seamlessly.</p>
+      </div>
+      <div class="feature-card">
+        <img src="upi.jpeg" alt="Payments">
+        <h3>UPI Payments</h3>
+        <p>Enable quick and secure payments directly through the app.</p>
+      </div>
+      <div class="feature-card">
+        <img src="secuirty.jpeg" alt="Security">
+        <h3>Advanced Security</h3>
+        <p>Stay safe with biometric authentication, NFC, and face recognition.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <p>"FinTrack has completely transformed the way we manage our finances. Highly recommended!"</p>
+        <span>- Jane Doe, SMB Owner</span>
+      </div>
+      <div class="testimonial">
+        <p>"The security features are top-notch, and the app is incredibly easy to use."</p>
+        <span>- John Smith, Entrepreneur</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 FinTrack. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

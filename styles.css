@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #90caf9;
+}
+
+a:hover {
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #1f1f1f;
+}
+
+header .logo {
+  height: 50px;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel {
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 2em;
+  background-color: #1f1f1f;
+}
+
+/* Features Preview Section */
+.features-preview {
+  padding: 2em;
+  text-align: center;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  width: 30%;
+  margin: 1em 0;
+  background-color: #1f1f1f;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.feature-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 2em;
+  background-color: #1f1f1f;
+  text-align: center;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  width: 40%;
+  margin: 1em 0;
+  background-color: #1f1f1f;
+  padding: 1em;
+  border-radius: 10px;
+  font-style: italic;
+}
+.nav{
+  text-spacing-trim: 1px;
+}
+    
+  
+
